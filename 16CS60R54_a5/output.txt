@@ -1,0 +1,164 @@
+shmid0 is 3309581 
+shmidtscounter is 3342350 
+shmid1 is 3375119 
+shmid is 3407888
+shmid3 is 3440657
+shmid is 3473426
+shmid6 is 3506195
+shmid8 is 3538969
+shmid7 is 3571738
+ No of queues = 4 
+ boil Instances 2 
+slave boil is allocated queue 0
+ boilmilk7min 7 
+heating 2 
+boilwater 10 
+boilmilk2min 2
+ 
+Value of n 4 
+1 cntslv 
+  wrap Instances 3 
+slave wrap is allocated queue 1
+ wrapbar 5 
+wrapcup 20
+ 
+Value of n 2 
+3 cntslv 
+  mix Instances 2 
+slave mix is allocated queue 2
+ vanilla 5 
+butter 20 
+chocolatepowder 11 
+cream 25 
+strawberry 20
+ 
+Value of n 5 
+6 cntslv 
+  freeze Instances 3 
+slave freeze is allocated queue 3
+ medium 6 
+extreme 50 
+slow 2
+ 
+Value of n 3 
+8 cntslv 
+  boil  0 4 
+	 boilmilk7min 7 
+ 	 heating 2 
+ 	 boilwater 10 
+ 	 boilmilk2min 2 
+  boil  4 4 
+	 boilmilk7min 7 
+ 	 heating 2 
+ 	 boilwater 10 
+ 	 boilmilk2min 2 
+  wrap  8 2 
+	 wrapbar 5 
+ 	 wrapcup 20 
+  wrap  10 2 
+	 wrapbar 5 
+ 	 wrapcup 20 
+  wrap  12 2 
+	 wrapbar 5 
+ 	 wrapcup 20 
+  mix  14 5 
+	 vanilla 5 
+ 	 butter 20 
+ 	 chocolatepowder 11 
+ 	 cream 25 
+ 	 strawberry 20 
+  mix  19 5 
+	 vanilla 5 
+ 	 butter 20 
+ 	 chocolatepowder 11 
+ 	 cream 25 
+ 	 strawberry 20 
+  freeze  24 3 
+	 medium 6 
+ 	 extreme 50 
+ 	 slow 2 
+  freeze  27 3 
+	 medium 6 
+ 	 extreme 50 
+ 	 slow 2 
+  freeze  30 3 
+	 medium 6 
+ 	 extreme 50 
+ 	 slow 2 
+ cntpr is 0 
+ 0 4 0 
+ cntpr is 5 
+ 5 9 0 
+ cntpr is 10 
+ 10 15 0 
+ cntpr is 16 
+ 16 21 0 
+ cntpr is 22 
+ 22 26 0 
+  0 vanillaice boil boilmilk7min 7  0
+ 0 vanillaice mix vanilla 5  0
+ 0 vanillaice boil heating 2  0
+ 0 vanillaice wrap wrapcup 20  0
+ 0 vanillaice freeze slow 2  0
+ 1 chocolatebar boil boilmilk7min 7  0
+ 1 chocolatebar mix chocolatepowder 11  0
+ 1 chocolatebar boil heating 2  0
+ 1 chocolatebar freeze extreme 50  0
+ 1 chocolatebar wrap wrapbar 5  0
+ 2 delight-strawberry boil boilmilk2min 2  0
+ 2 delight-strawberry mix strawberry 20  0
+ 2 delight-strawberry boil heating 2  0
+ 2 delight-strawberry mix cream 25  0
+ 2 delight-strawberry freeze extreme 50  0
+ 2 delight-strawberry wrap wrapbar 5  0
+ 3 delight-strawberry-cup boil boilmilk2min 2  0
+ 3 delight-strawberry-cup mix strawberry 20  0
+ 3 delight-strawberry-cup boil heating 2  0
+ 3 delight-strawberry-cup mix cream 25  0
+ 3 delight-strawberry-cup freeze extreme 50  0
+ 3 delight-strawberry-cup wrap wrapcup 20  0
+ 4 vanillaice boil boilmilk7min 7  0
+ 4 vanillaice mix vanilla 5  0
+ 4 vanillaice boil heating 2  0
+ 4 vanillaice wrap wrapcup 20  0
+ 4 vanillaice freeze slow 2  0
+Schedulingprocess array is :
+ 0 4 0 
+ 5 9 0 
+ 10 15 0 
+ 16 21 0 
+ 22 26 0 
+Queue no 0 boil 0 0
+Queue no 1 wrap 0 0
+Queue no 2 mix 0 0
+Queue no 3 freeze 0 0
+boil 2695 
+boil 2696 
+wrap 2697 
+wrap 2698 
+wrap 2699 
+mix 2700 
+mix 2701 
+freeze 2702 
+freeze 2703 
+freeze 2704 
+ 2695 is alive  2695 is killed 
+ 2696 is alive  2696 is killed 
+ 2697 is alive  2697 is killed 
+ 2698 is alive  2698 is killed 
+ 2699 is alive  2699 is killed 
+ 2700 is alive  2700 is killed 
+ 2701 is alive  2701 is killed 
+ 2702 is alive  2702 is killed 
+ 2703 is alive  2703 is killed 
+ 2704 is alive  2704 is killed 
+2695 6 boil boilmilk7min 2  heating 2  boilwater 0  boilmilk2min 2 
+2696 4 boil boilmilk7min 1  heating 3  boilwater 0  boilmilk2min 0 
+2697 1 wrap wrapbar 0  wrapcup 1 
+2698 2 wrap wrapbar 1  wrapcup 1 
+2699 2 wrap wrapbar 1  wrapcup 1 
+2700 4 mix vanilla 2  butter 0  chocolatepowder 0  cream 1  strawberry 1 
+2701 3 mix vanilla 0  butter 0  chocolatepowder 1  cream 1  strawberry 1 
+2702 2 freeze medium 0  extreme 2  slow 0 
+2703 1 freeze medium 0  extreme 0  slow 1 
+2704 2 freeze medium 0  extreme 1  slow 1 
